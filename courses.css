@@ -1,0 +1,49 @@
+.course-section {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 2%;
+  }
+  
+  .course-section h2 {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .course-section li {
+    list-style: square;
+    padding: 5px;
+    font-size: 17px;
+  }
+  
+  .course-section a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .course-section .row {
+    display: flex;
+    justify-content: space-around;
+    background-color: #efefef;
+    padding: 4rem 2rem;
+    border-radius: 7px;
+  }
+  
+  .course-section .column {
+    width: 30%;
+    font-weight: 700;
+    display: flex;
+  }
+  
+  @media (max-width: 767px) {
+    .course-section .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .course-section .column {
+      /* justify-content: center; */
+    }
+  }
+  
